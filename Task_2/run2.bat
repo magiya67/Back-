@@ -1,5 +1,5 @@
 @echo off
 cd /d "C:\Users\zhaka\PycharmProjects\Django-homework\"
 call .venv\Scripts\activate.bat
-python Task_1\manage.py runserver 192.168.0.14:8000
+python Task_2\manage.py runserver 192.168.0.14:8000
 pause
