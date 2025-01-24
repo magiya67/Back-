@@ -8,7 +8,8 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.views.decorators.csrf import csrf_exempt
 
-
+""
+@csrf_exempt
 def main(request):
     created_id = request.GET.get('created_id')
     contents = MyModel.objects.all()
